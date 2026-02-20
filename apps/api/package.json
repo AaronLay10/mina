@@ -1,0 +1,17 @@
+{
+  "name": "mina-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "vercel": "^34.0.0"
+  }
+}
